@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ESTabBarController_swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        setStaticGuidePage()
+        
         return true
+    }
+    
+    func setStaticGuidePage() {
+        let imageArr: [String] = ["lead01","lead02","lead03"]
+        let guideView = TMGuidePage.init(imageNameArr: imageArr, isHiddenSkipBtn: false)
+        self.window?.rootViewController?.view.addSubview(guideView)
     }
 
 
