@@ -30,6 +30,7 @@ class TMGuidePage: UIView {
         addScrollView(frame: frame)
         addSkipBtn(isHiddenSkip: isHiddenSkipBtn)
         addImages()
+        addPageControl()
     }
     
     required init?(coder: NSCoder) {
@@ -61,7 +62,7 @@ extension TMGuidePage {
         let skipButton = UIButton.init(frame: CGRect(x: kScreenWidth * 0.8, y: kScreenWidth * 0.1, width: 70, height: 35))
         skipButton.setTitle("跳过", for: .normal)
         skipButton.setTitleColor(UIColor.white, for: .normal)
-        skipButton.layer.cornerRadius = 2
+        skipButton.layer.cornerRadius = skipButton.bounds.size.height * 0.5
         skipButton.backgroundColor = UIColor.gray
         skipButton.addTarget(self, action: #selector(skipButtonClick), for: .touchUpInside)
         self.addSubview(skipButton)
@@ -105,11 +106,18 @@ extension TMGuidePage {
     }
     
     func addPageControl() {
-        
+        self.guidePageControl = UIPageControl.init(frame: CGRect(x: 0, y: kScreenHeight * 0.9, width: kScreenWidth, height: kScreenHeight * 0.1))
+        guidePageControl?.numberOfPages = self.imageArr?.count ?? 0
+        guidePageControl?.pageIndicatorTintColor = UIColor.gray
+        guidePageControl?.currentPageIndicatorTintColor = UIColor.white
+        addSubview(guidePageControl!)
     }
 }
 
 // 代理方法
 extension TMGuidePage : UIScrollViewDelegate {
-    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let page = scrollView.contentOffset.x / kScreenWidth
+        self.guidePageControl?.currentPage = Int(page)
+    }
 }
