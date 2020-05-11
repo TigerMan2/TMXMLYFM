@@ -10,9 +10,6 @@ import UIKit
 import AVFoundation
 import AVKit
 
-let kScreenWidth = UIScreen.main.bounds.size.width
-let kScreenHeight = UIScreen.main.bounds.size.height
-
 class TMGuidePage: UIView {
     
     var imageArr: [String]?

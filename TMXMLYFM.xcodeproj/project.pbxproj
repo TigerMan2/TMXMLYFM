@@ -9,6 +9,21 @@
 /* Begin PBXBuildFile section */
 		07EE0D4A74CA9372E38F1812 /* Pods_TMXMLYFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620CDDEC721CEC2BF40314A4 /* Pods_TMXMLYFM.framework */; };
 		297055503E3B40FD63A8F13A /* Pods_TMXMLYFM_TMXMLYFMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AFE499982C77DC5CDAB33E /* Pods_TMXMLYFM_TMXMLYFMUITests.framework */; };
+		AA1588D42468E05800ACB8EC /* TMBaseContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588D32468E05800ACB8EC /* TMBaseContentView.swift */; };
+		AA1588D62468E1A500ACB8EC /* TMBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588D52468E1A500ACB8EC /* TMBouncesContentView.swift */; };
+		AA1588D82468E1CF00ACB8EC /* TMIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588D72468E1CF00ACB8EC /* TMIrregularityContentView.swift */; };
+		AA1588EE2468EDAF00ACB8EC /* TMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588ED2468EDAF00ACB8EC /* TMHomeViewController.swift */; };
+		AA1588F02468EDB900ACB8EC /* TMListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588EF2468EDB900ACB8EC /* TMListenViewController.swift */; };
+		AA1588F22468EDC300ACB8EC /* TMPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588F12468EDC300ACB8EC /* TMPlayViewController.swift */; };
+		AA1588F42468EDCD00ACB8EC /* TMFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588F32468EDCD00ACB8EC /* TMFindViewController.swift */; };
+		AA1588F62468EDD700ACB8EC /* TMMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588F52468EDD700ACB8EC /* TMMineViewController.swift */; };
+		AA1588F92468EFC900ACB8EC /* TMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588F82468EFC900ACB8EC /* TMNavigationController.swift */; };
+		AA1589022468F00100ACB8EC /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588FC2468F00100ACB8EC /* WRNavigationBar.swift */; };
+		AA1589032468F00100ACB8EC /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588FD2468F00100ACB8EC /* WRCustomNavigationBar.swift */; };
+		AA1589042468F00100ACB8EC /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1588FF2468F00100ACB8EC /* WRProxy.swift */; };
+		AA1589052468F00100ACB8EC /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1589002468F00100ACB8EC /* WRCycleScrollView.swift */; };
+		AA1589062468F00100ACB8EC /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1589012468F00100ACB8EC /* WRCycleCell.swift */; };
+		AA1589092468F19200ACB8EC /* TMConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1589082468F19200ACB8EC /* TMConst.swift */; };
 		AA1C31932467E829000D467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C31922467E829000D467E /* AppDelegate.swift */; };
 		AA1C31972467E829000D467E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C31962467E829000D467E /* ViewController.swift */; };
 		AA1C319A2467E829000D467E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1C31982467E829000D467E /* Main.storyboard */; };
@@ -47,6 +62,21 @@
 		620CDDEC721CEC2BF40314A4 /* Pods_TMXMLYFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMXMLYFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CBFF97BE9E9C992030D216 /* Pods-TMXMLYFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMXMLYFM.release.xcconfig"; path = "Target Support Files/Pods-TMXMLYFM/Pods-TMXMLYFM.release.xcconfig"; sourceTree = "<group>"; };
 		8643357BD2DE81D8B6C56E19 /* Pods-TMXMLYFMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMXMLYFMTests.debug.xcconfig"; path = "Target Support Files/Pods-TMXMLYFMTests/Pods-TMXMLYFMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1588D32468E05800ACB8EC /* TMBaseContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBaseContentView.swift; sourceTree = "<group>"; };
+		AA1588D52468E1A500ACB8EC /* TMBouncesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBouncesContentView.swift; sourceTree = "<group>"; };
+		AA1588D72468E1CF00ACB8EC /* TMIrregularityContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMIrregularityContentView.swift; sourceTree = "<group>"; };
+		AA1588ED2468EDAF00ACB8EC /* TMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeViewController.swift; sourceTree = "<group>"; };
+		AA1588EF2468EDB900ACB8EC /* TMListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMListenViewController.swift; sourceTree = "<group>"; };
+		AA1588F12468EDC300ACB8EC /* TMPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMPlayViewController.swift; sourceTree = "<group>"; };
+		AA1588F32468EDCD00ACB8EC /* TMFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMFindViewController.swift; sourceTree = "<group>"; };
+		AA1588F52468EDD700ACB8EC /* TMMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMMineViewController.swift; sourceTree = "<group>"; };
+		AA1588F82468EFC900ACB8EC /* TMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMNavigationController.swift; sourceTree = "<group>"; };
+		AA1588FC2468F00100ACB8EC /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		AA1588FD2468F00100ACB8EC /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		AA1588FF2468F00100ACB8EC /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
+		AA1589002468F00100ACB8EC /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
+		AA1589012468F00100ACB8EC /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
+		AA1589082468F19200ACB8EC /* TMConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMConst.swift; sourceTree = "<group>"; };
 		AA1C318F2467E828000D467E /* TMXMLYFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMXMLYFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1C31922467E829000D467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1C31962467E829000D467E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +141,205 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AA1588D22468E01B00ACB8EC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588D32468E05800ACB8EC /* TMBaseContentView.swift */,
+				AA1588D52468E1A500ACB8EC /* TMBouncesContentView.swift */,
+				AA1588D72468E1CF00ACB8EC /* TMIrregularityContentView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		AA1588D92468EBF500ACB8EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588ED2468EDAF00ACB8EC /* TMHomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA1588DA2468EBFF00ACB8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA1588DB2468EC0100ACB8EC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AA1588DC2468EC0300ACB8EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1588DD2468EC0500ACB8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA1588DE2468EC0800ACB8EC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AA1588DF2468EC0A00ACB8EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1588E02468EC0D00ACB8EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588EF2468EDB900ACB8EC /* TMListenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA1588E12468EC1000ACB8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA1588E22468EC1300ACB8EC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AA1588E32468EC1500ACB8EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1588E42468EC1700ACB8EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588F12468EDC300ACB8EC /* TMPlayViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA1588E52468EC1A00ACB8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA1588E62468EC1D00ACB8EC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AA1588E72468EC2000ACB8EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1588E82468EC2300ACB8EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588F32468EDCD00ACB8EC /* TMFindViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA1588E92468EC2600ACB8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA1588EA2468EC2800ACB8EC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AA1588EB2468EC2A00ACB8EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1588EC2468EC2D00ACB8EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588F52468EDD700ACB8EC /* TMMineViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA1588F72468EFA500ACB8EC /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588F82468EFC900ACB8EC /* TMNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		AA1588FA2468EFEE00ACB8EC /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588FB2468F00100ACB8EC /* WRNavigationBar */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		AA1588FB2468F00100ACB8EC /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588FC2468F00100ACB8EC /* WRNavigationBar.swift */,
+				AA1588FD2468F00100ACB8EC /* WRCustomNavigationBar.swift */,
+				AA1588FE2468F00100ACB8EC /* WRCycleScrollView */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		AA1588FE2468F00100ACB8EC /* WRCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				AA1588FF2468F00100ACB8EC /* WRProxy.swift */,
+				AA1589002468F00100ACB8EC /* WRCycleScrollView.swift */,
+				AA1589012468F00100ACB8EC /* WRCycleCell.swift */,
+			);
+			path = WRCycleScrollView;
+			sourceTree = "<group>";
+		};
+		AA1589072468F17C00ACB8EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA1589082468F19200ACB8EC /* TMConst.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		AA1C31862467E828000D467E = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +367,7 @@
 			children = (
 				AA1C31922467E829000D467E /* AppDelegate.swift */,
 				AA1C31962467E829000D467E /* ViewController.swift */,
+				AA1589072468F17C00ACB8EC /* Main */,
 				AA1C31C32467FAAA000D467E /* Home */,
 				AA1C31C72467FAEA000D467E /* Listen */,
 				AA1C31C62467FAE3000D467E /* Play */,
@@ -146,6 +376,7 @@
 				AA1C31C22467FA9B000D467E /* Common */,
 				AA1C31C82467FB1C000D467E /* Other */,
 				AA1C31C92467FB40000D467E /* Guide */,
+				AA1588FA2468EFEE00ACB8EC /* Vender */,
 				AA1C319B2467E82A000D467E /* Assets.xcassets */,
 				AA1C31A02467E82A000D467E /* Info.plist */,
 			);
@@ -173,6 +404,8 @@
 		AA1C31C22467FA9B000D467E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				AA1588F72468EFA500ACB8EC /* Navigation */,
+				AA1588D22468E01B00ACB8EC /* Tabbar */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -180,6 +413,10 @@
 		AA1C31C32467FAAA000D467E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				AA1588D92468EBF500ACB8EC /* Controllers */,
+				AA1588DC2468EC0300ACB8EC /* Models */,
+				AA1588DB2468EC0100ACB8EC /* Managers */,
+				AA1588DA2468EBFF00ACB8EC /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -187,6 +424,10 @@
 		AA1C31C42467FADF000D467E /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				AA1588EC2468EC2D00ACB8EC /* Controllers */,
+				AA1588EB2468EC2A00ACB8EC /* Models */,
+				AA1588EA2468EC2800ACB8EC /* Managers */,
+				AA1588E92468EC2600ACB8EC /* Views */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -194,6 +435,10 @@
 		AA1C31C52467FAE1000D467E /* Find */ = {
 			isa = PBXGroup;
 			children = (
+				AA1588E82468EC2300ACB8EC /* Controllers */,
+				AA1588E72468EC2000ACB8EC /* Models */,
+				AA1588E62468EC1D00ACB8EC /* Managers */,
+				AA1588E52468EC1A00ACB8EC /* Views */,
 			);
 			path = Find;
 			sourceTree = "<group>";
@@ -201,6 +446,10 @@
 		AA1C31C62467FAE3000D467E /* Play */ = {
 			isa = PBXGroup;
 			children = (
+				AA1588E42468EC1700ACB8EC /* Controllers */,
+				AA1588E32468EC1500ACB8EC /* Models */,
+				AA1588E22468EC1300ACB8EC /* Managers */,
+				AA1588E12468EC1000ACB8EC /* Views */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -208,6 +457,10 @@
 		AA1C31C72467FAEA000D467E /* Listen */ = {
 			isa = PBXGroup;
 			children = (
+				AA1588E02468EC0D00ACB8EC /* Controllers */,
+				AA1588DF2468EC0A00ACB8EC /* Models */,
+				AA1588DE2468EC0800ACB8EC /* Managers */,
+				AA1588DD2468EC0500ACB8EC /* Views */,
 			);
 			path = Listen;
 			sourceTree = "<group>";
@@ -490,9 +743,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1588D42468E05800ACB8EC /* TMBaseContentView.swift in Sources */,
+				AA1588F22468EDC300ACB8EC /* TMPlayViewController.swift in Sources */,
+				AA1588D82468E1CF00ACB8EC /* TMIrregularityContentView.swift in Sources */,
+				AA1589042468F00100ACB8EC /* WRProxy.swift in Sources */,
+				AA1588D62468E1A500ACB8EC /* TMBouncesContentView.swift in Sources */,
+				AA1588F92468EFC900ACB8EC /* TMNavigationController.swift in Sources */,
 				AA1C31972467E829000D467E /* ViewController.swift in Sources */,
+				AA1588F02468EDB900ACB8EC /* TMListenViewController.swift in Sources */,
+				AA1589052468F00100ACB8EC /* WRCycleScrollView.swift in Sources */,
+				AA1588F62468EDD700ACB8EC /* TMMineViewController.swift in Sources */,
+				AA1588F42468EDCD00ACB8EC /* TMFindViewController.swift in Sources */,
 				AA1C31932467E829000D467E /* AppDelegate.swift in Sources */,
+				AA1589022468F00100ACB8EC /* WRNavigationBar.swift in Sources */,
+				AA1589062468F00100ACB8EC /* WRCycleCell.swift in Sources */,
 				AA1C31D32467FBD1000D467E /* UIImage+GIF.swift in Sources */,
+				AA1588EE2468EDAF00ACB8EC /* TMHomeViewController.swift in Sources */,
+				AA1589032468F00100ACB8EC /* WRCustomNavigationBar.swift in Sources */,
+				AA1589092468F19200ACB8EC /* TMConst.swift in Sources */,
 				AA1C31CB2467FB68000D467E /* TMGuidePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
