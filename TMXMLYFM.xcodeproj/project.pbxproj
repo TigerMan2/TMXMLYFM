@@ -24,6 +24,14 @@
 		AA1589052468F00100ACB8EC /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1589002468F00100ACB8EC /* WRCycleScrollView.swift */; };
 		AA1589062468F00100ACB8EC /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1589012468F00100ACB8EC /* WRCycleCell.swift */; };
 		AA1589092468F19200ACB8EC /* TMConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1589082468F19200ACB8EC /* TMConst.swift */; };
+		AA15890B2469189200ACB8EC /* TMHomeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15890A2469189200ACB8EC /* TMHomeBaseViewController.swift */; };
+		AA15890D24691B4300ACB8EC /* TMHomeRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15890C24691B4300ACB8EC /* TMHomeRecommendController.swift */; };
+		AA15890F24691B5400ACB8EC /* TMHomeCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15890E24691B5400ACB8EC /* TMHomeCategoryController.swift */; };
+		AA15891124691B6300ACB8EC /* TMHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15891024691B6300ACB8EC /* TMHomeVIPController.swift */; };
+		AA15891324691B7200ACB8EC /* TMHomeLiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15891224691B7200ACB8EC /* TMHomeLiveController.swift */; };
+		AA15891524691BA500ACB8EC /* TMHomeRadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15891424691BA500ACB8EC /* TMHomeRadioController.swift */; };
+		AA1589192469221600ACB8EC /* TMHomeTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1589182469221600ACB8EC /* TMHomeTopCell.swift */; };
+		AA15891D2469240900ACB8EC /* TMHomeRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA15891C2469240900ACB8EC /* TMHomeRecommendModel.swift */; };
 		AA1C31932467E829000D467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C31922467E829000D467E /* AppDelegate.swift */; };
 		AA1C31972467E829000D467E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C31962467E829000D467E /* ViewController.swift */; };
 		AA1C319A2467E829000D467E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1C31982467E829000D467E /* Main.storyboard */; };
@@ -37,6 +45,8 @@
 		AA1C31D12467FB84000D467E /* lead02.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1C31CE2467FB84000D467E /* lead02.png */; };
 		AA1C31D32467FBD1000D467E /* UIImage+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1C31D22467FBD1000D467E /* UIImage+GIF.swift */; };
 		AA1C31D52467FBD7000D467E /* guide_btn_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1C31D42467FBD7000D467E /* guide_btn_bg@2x.png */; };
+		AAFB9394246A398E005E4824 /* TMRecommendAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB9393246A398E005E4824 /* TMRecommendAPI.swift */; };
+		AAFB9397246A77F5005E4824 /* TMHomeRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB9396246A77F5005E4824 /* TMHomeRecommendViewModel.swift */; };
 		AC0577B4FEC1F360517D108A /* Pods_TMXMLYFMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34BB1F448F23EFD027C697A /* Pods_TMXMLYFMTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +87,14 @@
 		AA1589002468F00100ACB8EC /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
 		AA1589012468F00100ACB8EC /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
 		AA1589082468F19200ACB8EC /* TMConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMConst.swift; sourceTree = "<group>"; };
+		AA15890A2469189200ACB8EC /* TMHomeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeBaseViewController.swift; sourceTree = "<group>"; };
+		AA15890C24691B4300ACB8EC /* TMHomeRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeRecommendController.swift; sourceTree = "<group>"; };
+		AA15890E24691B5400ACB8EC /* TMHomeCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeCategoryController.swift; sourceTree = "<group>"; };
+		AA15891024691B6300ACB8EC /* TMHomeVIPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeVIPController.swift; sourceTree = "<group>"; };
+		AA15891224691B7200ACB8EC /* TMHomeLiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeLiveController.swift; sourceTree = "<group>"; };
+		AA15891424691BA500ACB8EC /* TMHomeRadioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeRadioController.swift; sourceTree = "<group>"; };
+		AA1589182469221600ACB8EC /* TMHomeTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeTopCell.swift; sourceTree = "<group>"; };
+		AA15891C2469240900ACB8EC /* TMHomeRecommendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeRecommendModel.swift; sourceTree = "<group>"; };
 		AA1C318F2467E828000D467E /* TMXMLYFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMXMLYFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1C31922467E829000D467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1C31962467E829000D467E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +114,8 @@
 		AA1C31CE2467FB84000D467E /* lead02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lead02.png; sourceTree = "<group>"; };
 		AA1C31D22467FBD1000D467E /* UIImage+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+GIF.swift"; sourceTree = "<group>"; };
 		AA1C31D42467FBD7000D467E /* guide_btn_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_btn_bg@2x.png"; sourceTree = "<group>"; };
+		AAFB9393246A398E005E4824 /* TMRecommendAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMRecommendAPI.swift; sourceTree = "<group>"; };
+		AAFB9396246A77F5005E4824 /* TMHomeRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMHomeRecommendViewModel.swift; sourceTree = "<group>"; };
 		AB108017328A336766347D2A /* Pods-TMXMLYFM-TMXMLYFMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMXMLYFM-TMXMLYFMUITests.debug.xcconfig"; path = "Target Support Files/Pods-TMXMLYFM-TMXMLYFMUITests/Pods-TMXMLYFM-TMXMLYFMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D34BB1F448F23EFD027C697A /* Pods_TMXMLYFMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMXMLYFMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D885B43C14AB9C85B398C5 /* Pods-TMXMLYFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMXMLYFM.debug.xcconfig"; path = "Target Support Files/Pods-TMXMLYFM/Pods-TMXMLYFM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +175,12 @@
 			isa = PBXGroup;
 			children = (
 				AA1588ED2468EDAF00ACB8EC /* TMHomeViewController.swift */,
+				AA15890A2469189200ACB8EC /* TMHomeBaseViewController.swift */,
+				AA15890C24691B4300ACB8EC /* TMHomeRecommendController.swift */,
+				AA15890E24691B5400ACB8EC /* TMHomeCategoryController.swift */,
+				AA15891024691B6300ACB8EC /* TMHomeVIPController.swift */,
+				AA15891224691B7200ACB8EC /* TMHomeLiveController.swift */,
+				AA15891424691BA500ACB8EC /* TMHomeRadioController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,6 +188,7 @@
 		AA1588DA2468EBFF00ACB8EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AA1589182469221600ACB8EC /* TMHomeTopCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +196,7 @@
 		AA1588DB2468EC0100ACB8EC /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				AAFB9393246A398E005E4824 /* TMRecommendAPI.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -176,6 +204,7 @@
 		AA1588DC2468EC0300ACB8EC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AA15891C2469240900ACB8EC /* TMHomeRecommendModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -413,6 +442,7 @@
 		AA1C31C32467FAAA000D467E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				AAFB9395246A77B9005E4824 /* ViewModel */,
 				AA1588D92468EBF500ACB8EC /* Controllers */,
 				AA1588DC2468EC0300ACB8EC /* Models */,
 				AA1588DB2468EC0100ACB8EC /* Managers */,
@@ -485,6 +515,14 @@
 				AA1C31CA2467FB68000D467E /* TMGuidePage.swift */,
 			);
 			path = Guide;
+			sourceTree = "<group>";
+		};
+		AAFB9395246A77B9005E4824 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAFB9396246A77F5005E4824 /* TMHomeRecommendViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		AE5A50808262C50E0C066902 /* Pods */ = {
@@ -573,6 +611,7 @@
 				TargetAttributes = {
 					AA1C318E2467E828000D467E = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					AA1C31A42467E82A000D467E = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -744,12 +783,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1588D42468E05800ACB8EC /* TMBaseContentView.swift in Sources */,
+				AA15890B2469189200ACB8EC /* TMHomeBaseViewController.swift in Sources */,
 				AA1588F22468EDC300ACB8EC /* TMPlayViewController.swift in Sources */,
+				AA15890F24691B5400ACB8EC /* TMHomeCategoryController.swift in Sources */,
 				AA1588D82468E1CF00ACB8EC /* TMIrregularityContentView.swift in Sources */,
 				AA1589042468F00100ACB8EC /* WRProxy.swift in Sources */,
+				AA15891D2469240900ACB8EC /* TMHomeRecommendModel.swift in Sources */,
+				AA15890D24691B4300ACB8EC /* TMHomeRecommendController.swift in Sources */,
+				AAFB9394246A398E005E4824 /* TMRecommendAPI.swift in Sources */,
+				AA15891124691B6300ACB8EC /* TMHomeVIPController.swift in Sources */,
 				AA1588D62468E1A500ACB8EC /* TMBouncesContentView.swift in Sources */,
+				AA1589192469221600ACB8EC /* TMHomeTopCell.swift in Sources */,
 				AA1588F92468EFC900ACB8EC /* TMNavigationController.swift in Sources */,
 				AA1C31972467E829000D467E /* ViewController.swift in Sources */,
+				AA15891324691B7200ACB8EC /* TMHomeLiveController.swift in Sources */,
+				AAFB9397246A77F5005E4824 /* TMHomeRecommendViewModel.swift in Sources */,
 				AA1588F02468EDB900ACB8EC /* TMListenViewController.swift in Sources */,
 				AA1589052468F00100ACB8EC /* WRCycleScrollView.swift in Sources */,
 				AA1588F62468EDD700ACB8EC /* TMMineViewController.swift in Sources */,
@@ -759,6 +807,7 @@
 				AA1589062468F00100ACB8EC /* WRCycleCell.swift in Sources */,
 				AA1C31D32467FBD1000D467E /* UIImage+GIF.swift in Sources */,
 				AA1588EE2468EDAF00ACB8EC /* TMHomeViewController.swift in Sources */,
+				AA15891524691BA500ACB8EC /* TMHomeRadioController.swift in Sources */,
 				AA1589032468F00100ACB8EC /* WRCustomNavigationBar.swift in Sources */,
 				AA1589092468F19200ACB8EC /* TMConst.swift in Sources */,
 				AA1C31CB2467FB68000D467E /* TMGuidePage.swift in Sources */,
@@ -935,6 +984,7 @@
 			baseConfigurationReference = D3D885B43C14AB9C85B398C5 /* Pods-TMXMLYFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4634493CA;
 				INFOPLIST_FILE = TMXMLYFM/Info.plist;
@@ -945,6 +995,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mrstock.TMXMLYFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -955,6 +1006,7 @@
 			baseConfigurationReference = 85CBFF97BE9E9C992030D216 /* Pods-TMXMLYFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4634493CA;
 				INFOPLIST_FILE = TMXMLYFM/Info.plist;
